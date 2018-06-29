@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document*/ 
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	color:#4C4C4C;
+	background-color:#fff;
+}
+#header-top{
+	border-bottom:1px solid #313131;
+	margin-bottom:40px;
+	
+}
+.main-container{
+	margin-top:30px;
+}
+a {
+	color:#c5a95e;
+}
+.social{
+	margin:5px;
+}
+footer .container-fluid{
+	background:#000;
+	height:150px;
+}
+footer .container{
+	margin-top:15px;
+}
+
+.footer{
+	margin-top:25px;
+	color:#6C6C6C
+}
+.footer p{
+	margin:0px;
+}
+
+.entry{
+	margin-bottom:40px;
+}
+
+.entry-text hr{
+	margin:0 0 5px 0;
+}
+
+
+/*  Social  */
+.single article .social_networks {
+  margin: 0;
+}
+
+.social_networks {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social_networks li {
+   display: inline-block; 
+   border: none; 
+   margin: 0 0 0 -4px; 
+}
+
+.social_networks li a {
+  color: #929a9b;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  line-height: 44px;
+  width: 49px;
+  height: 46px;
+  margin: 0px;
+  padding: 0;
+  outline: none;
+  border-left: 1px solid #343a3b;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social_networks li a:hover {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.social_networks li i.fa-lg {
+   font-size: 1em;
+}
+
+.facebook a:hover {
+  background-color: #c5a95e;
+}
+
+.twitter a:hover {
+  background-color: #c5a95e;
+}
+.googleplus a:hover {
+  background-color: #c5a95e;
+}
+
+.linkedin a:hover {
+  background-color: #c5a95e;
+}
+
+.youtube a:hover {
+  background-color: #c5a95e;
+}
+
+.instagram a:hover {
+  background-color: #c5a95e;
+}
+
+.pinterest a:hover {
+  background-color: #c5a95e;
+}
+	
+p.contact-email {
+	margin:0 0 -40px 0;
+	color:#929a9b;
+	font-size:.9em;
+}	
+p.contact-email a:link{
+	color:#929a9b;
+	text-decoration:none;}
+p.contact-email a:hover{
+	color:#c5a95e;
+	text-decoration:none;
+}
+
+	
+/* Small Screen Adjustments */
+@media (max-width: 991px) {
+	  body {
+		margin: 0;
+		padding: 0;
+	}	
+	
+	button.navbar-toggle{
+	float:none;	
+	margin:0;
+	}
+	
+	.social_networks{
+		float:none;
+		text-align:center;
+	}
+	
+	ul.social_networks{
+			float:none;
+		}
+	
+	.social_networks li a{
+		border:none;
+		margin-top:15px;
+	}
+	
+	.navbar p.contact-email, p.logo{
+		text-align:center;
+	}
+	
+	.navbar-header{
+		float:none;
+		text-align:center;
+	}
+	
+	#header-top{
+		margin-bottom:0;
+		text-align:center;
+		
+	}
+	
+	.navbar-right{
+		float:none;
+		text-align:center;
+	}
+	
+	.logo .img-responsive{
+		display:inline;
+		margin-top:20px;
+	}
+}
+/* End XS Screen Adjustments */
+
+	
+
+ 
