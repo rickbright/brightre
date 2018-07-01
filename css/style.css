@@ -187,7 +187,12 @@ p.contact-email a:hover{
 	}
 }
 /* End XS Screen Adjustments */
-
+.main-menu-container{
+	height:60px;
+}
+.main-menu{
+	margin-top:10px;
+}
 	
 
  
